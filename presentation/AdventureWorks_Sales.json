@@ -21,8 +21,6 @@
     }, {
       "name" : "presentationTable:AdventureWorks_Sales.D Due Date"
     }, {
-      "name" : "presentationTable:AdventureWorks_Sales.D Product"
-    }, {
       "name" : "presentationTable:AdventureWorks_Sales.D Order Date"
     }, {
       "name" : "presentationTable:AdventureWorks_Sales.D Ship Date"
@@ -45,9 +43,13 @@
     }, {
       "name" : "presentationTable:AdventureWorks_Sales.D Promotion"
     }, {
-      "name" : "presentationTable:AdventureWorks_Sales.D Prod Subcategory"
+      "name" : "presentationTable:AdventureWorks_Sales.Product"
     }, {
-      "name" : "presentationTable:AdventureWorks_Sales.D Product Category"
+      "name" : "presentationTable:AdventureWorks_Sales.- D Product"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.- D Prod Subcategory"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.- D Product Category"
     }, {
       "name" : "presentationTable:AdventureWorks_Sales.D Organizatoion"
     }, {

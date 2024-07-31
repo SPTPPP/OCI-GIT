@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Prod Subcategory",
+    "name" : "- D Prod Subcategory",
     "presentationColumns" : [ {
       "name" : "Englishproductsubcategoryname",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Prod Subcategory.Englishproductsubcategoryname"
