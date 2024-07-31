@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Internetsales",
+    "name" : "- F Internetsales",
     "presentationColumns" : [ {
       "name" : "Salesordernumber",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesordernumber"

@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Product English Subcategory",
+    "name" : "- D Product English Subcategory",
     "presentationColumns" : [ {
       "name" : "Productsubcategorykey",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Product English Subcategory.Productsubcategorykey"

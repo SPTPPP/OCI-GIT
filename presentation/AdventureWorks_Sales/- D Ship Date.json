@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Ship Date",
+    "name" : "- D Ship Date",
     "presentationColumns" : [ {
       "name" : "Datekey",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Ship Date.Datekey"

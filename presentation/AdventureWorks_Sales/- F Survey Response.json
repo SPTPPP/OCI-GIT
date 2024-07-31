@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Survey Response",
+    "name" : "- F Survey Response",
     "presentationColumns" : [ {
       "name" : "Englishproductcategoryname",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Englishproductcategoryname"

@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Currency Rate",
+    "name" : "- F Currency Rate",
     "presentationColumns" : [ {
       "name" : "Averagerate",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Currency Rate.Averagerate"

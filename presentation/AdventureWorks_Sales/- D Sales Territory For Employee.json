@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Sales Territory For Employee",
+    "name" : "- D Sales Territory For Employee",
     "presentationColumns" : [ {
       "name" : "Salesterritoryregion",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory For Employee.Salesterritoryregion"

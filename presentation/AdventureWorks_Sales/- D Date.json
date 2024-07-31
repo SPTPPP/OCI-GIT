@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Date",
+    "name" : "- D Date",
     "presentationColumns" : [ {
       "name" : "Datekey",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Date.Datekey"
@@ -68,19 +68,19 @@
       }, {
         "name" : "Year",
         "sourceLogicalLevel" : "logicalLevel:Sales.D Date.Year",
-        "displayColumn" : "presentationColumn:AdventureWorks_Sales.D Date.Calendaryear"
+        "displayColumn" : "presentationColumn:AdventureWorks_Sales.- D Date.Calendaryear"
       }, {
         "name" : "Quarter",
         "sourceLogicalLevel" : "logicalLevel:Sales.D Date.Quarter",
-        "displayColumn" : "presentationColumn:AdventureWorks_Sales.D Date.Calendarquarter"
+        "displayColumn" : "presentationColumn:AdventureWorks_Sales.- D Date.Calendarquarter"
       }, {
         "name" : "Month",
         "sourceLogicalLevel" : "logicalLevel:Sales.D Date.Month",
-        "displayColumn" : "presentationColumn:AdventureWorks_Sales.D Date.Englishmonthname"
+        "displayColumn" : "presentationColumn:AdventureWorks_Sales.- D Date.Englishmonthname"
       }, {
         "name" : "Day",
         "sourceLogicalLevel" : "logicalLevel:Sales.D Date.Day",
-        "displayColumn" : "presentationColumn:AdventureWorks_Sales.D Date.Datekey"
+        "displayColumn" : "presentationColumn:AdventureWorks_Sales.- D Date.Datekey"
       } ]
     } ]
   }

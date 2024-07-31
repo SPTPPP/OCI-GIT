@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Finance",
+    "name" : "- F Finance",
     "presentationColumns" : [ {
       "name" : "Amount",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Amount"

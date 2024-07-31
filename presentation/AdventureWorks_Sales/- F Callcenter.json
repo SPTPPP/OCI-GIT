@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Callcenter",
+    "name" : "- F Callcenter",
     "presentationColumns" : [ {
       "name" : "Factcallcenterid",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Callcenter.Factcallcenterid"

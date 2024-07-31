@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "F Sales Quota",
+    "name" : "- F Sales Quota",
     "presentationColumns" : [ {
       "name" : "Calendaryear",
       "sourceLogicalColumn" : "logicalColumn:Sales.F Sales Quota.Calendaryear"

@@ -1,6 +1,6 @@
 {
   "presentationTable" : {
-    "name" : "D Employee",
+    "name" : "- D Employee",
     "presentationColumns" : [ {
       "name" : "Salesterritorykey",
       "sourceLogicalColumn" : "logicalColumn:Sales.D Employee.Salesterritorykey"
