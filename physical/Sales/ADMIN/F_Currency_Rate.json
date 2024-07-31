@@ -1,0 +1,26 @@
+{
+  "physicalTable": {
+    "name": "F_Currency_Rate",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTCURRENCYRATE",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Currency",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Currency_Rate.CURRENCYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Currency.CURRENCYKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Currency_Rate.DATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+          }
+        ]
+      }
+    ]
+  }
+}

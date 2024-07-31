@@ -1,0 +1,63 @@
+{
+  "subjectArea" : {
+    "name" : "AdventureWorks_Sales",
+    "sourceBusinessModel" : "businessModel:Sales",
+    "tableOrder" : [ {
+      "name" : "presentationTable:AdventureWorks_Sales.F Reseller Sales"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Callcenter"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Internet Sales Reason"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Currency Rate"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Internetsales"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Finance"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Sales Quota"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.F Survey Response"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Due Date"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Product"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Order Date"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Ship Date"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Salesreason"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Customer"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Account"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Product English Subcategory"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Currency"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Department Group"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Employee"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Geography"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Promotion"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Prod Subcategory"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Product Category"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Organizatoion"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Sales Territory For Employee"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Scenerio"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Sales Territory"
+    }, {
+      "name" : "presentationTable:AdventureWorks_Sales.D Date"
+    } ]
+  }
+}

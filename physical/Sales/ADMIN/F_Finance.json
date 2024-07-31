@@ -1,0 +1,55 @@
+{
+  "physicalTable": {
+    "name": "F_Finance",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTFINANCE",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "useJoinExpression": true,
+        "rightTable": "physicalTable:Sales.ADMIN.D_Organizatoion",
+        "joinExpression": {
+          "expressionTemplate": "%1 = %2",
+          "expressionObjects": [
+            "physicalColumn:Sales.ADMIN.F_Finance.ORGANIZATIONKEY",
+            "physicalColumn:Sales.ADMIN.D_Organizatoion.ORGANIZATIONKEY"
+          ]
+        },
+        "cardinality": "MANY_TO_ONE",
+        "joinType": "INNER"
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Account",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Finance.ACCOUNTKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Account.ACCOUNTKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Finance.DATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Department_Group",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Finance.DEPARTMENTGROUPKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Department_Group.DEPARTMENTGROUPKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Scenerio",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Finance.SCENARIOKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Scenerio.SCENARIOKEY"
+          }
+        ]
+      }
+    ]
+  }
+}

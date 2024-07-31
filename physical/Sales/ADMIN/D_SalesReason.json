@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_SalesReason",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMSALESREASON",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "SALESREASONKEY"
+      ]
+    ]
+  }
+}

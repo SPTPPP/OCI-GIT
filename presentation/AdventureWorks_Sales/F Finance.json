@@ -1,0 +1,12 @@
+{
+  "presentationTable" : {
+    "name" : "F Finance",
+    "presentationColumns" : [ {
+      "name" : "Amount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Amount"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Finance.Date_"
+    } ]
+  }
+}

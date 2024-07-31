@@ -1,0 +1,18 @@
+{
+  "physicalTable": {
+    "name": "F_Internet_Sales_Reason",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTINTERNETSALESREASON",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_SalesReason",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Internet_Sales_Reason.SALESREASONKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_SalesReason.SALESREASONKEY"
+          }
+        ]
+      }
+    ]
+  }
+}

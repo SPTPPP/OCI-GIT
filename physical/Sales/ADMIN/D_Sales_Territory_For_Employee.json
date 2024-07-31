@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Sales_Territory_For_Employee",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMSALESTERRITORY",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "SALESTERRITORYKEY"
+      ]
+    ]
+  }
+}

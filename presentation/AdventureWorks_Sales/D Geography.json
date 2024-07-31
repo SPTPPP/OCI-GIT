@@ -1,0 +1,33 @@
+{
+  "presentationTable" : {
+    "name" : "D Geography",
+    "presentationColumns" : [ {
+      "name" : "City",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.City"
+    }, {
+      "name" : "Stateprovincecode",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Stateprovincecode"
+    }, {
+      "name" : "Stateprovincename",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Stateprovincename"
+    }, {
+      "name" : "Countryregioncode",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Countryregioncode"
+    }, {
+      "name" : "Englishcountryregionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Englishcountryregionname"
+    }, {
+      "name" : "Spanishcountryregionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Spanishcountryregionname"
+    }, {
+      "name" : "Frenchcountryregionname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Frenchcountryregionname"
+    }, {
+      "name" : "Postalcode",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Postalcode"
+    }, {
+      "name" : "Ipaddresslocator",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Geography.Ipaddresslocator"
+    } ]
+  }
+}

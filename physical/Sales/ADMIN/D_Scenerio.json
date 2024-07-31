@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Scenerio",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMSCENARIO",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "SCENARIOKEY"
+      ]
+    ]
+  }
+}

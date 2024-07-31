@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "F Survey Response",
+    "presentationColumns" : [ {
+      "name" : "Englishproductcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Englishproductcategoryname"
+    }, {
+      "name" : "Englishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Englishproductsubcategoryname"
+    }, {
+      "name" : "Date_",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Survey Response.Date_"
+    } ]
+  }
+}

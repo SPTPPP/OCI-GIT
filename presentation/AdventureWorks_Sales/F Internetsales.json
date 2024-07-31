@@ -1,0 +1,60 @@
+{
+  "presentationTable" : {
+    "name" : "F Internetsales",
+    "presentationColumns" : [ {
+      "name" : "Salesordernumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesordernumber"
+    }, {
+      "name" : "Salesorderlinenumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesorderlinenumber"
+    }, {
+      "name" : "Revisionnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Revisionnumber"
+    }, {
+      "name" : "Orderquantity",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Orderquantity"
+    }, {
+      "name" : "Unitprice",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Unitprice"
+    }, {
+      "name" : "Extendedamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Extendedamount"
+    }, {
+      "name" : "Unitpricediscountpct",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Unitpricediscountpct"
+    }, {
+      "name" : "Discountamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Discountamount"
+    }, {
+      "name" : "Productstandardcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Productstandardcost"
+    }, {
+      "name" : "Totalproductcost",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Totalproductcost"
+    }, {
+      "name" : "Salesamount",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Salesamount"
+    }, {
+      "name" : "Taxamt",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Taxamt"
+    }, {
+      "name" : "Freight",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Freight"
+    }, {
+      "name" : "Carriertrackingnumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Carriertrackingnumber"
+    }, {
+      "name" : "Customerponumber",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Customerponumber"
+    }, {
+      "name" : "Orderdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Orderdate"
+    }, {
+      "name" : "Duedate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Duedate"
+    }, {
+      "name" : "Shipdate",
+      "sourceLogicalColumn" : "logicalColumn:Sales.F Internetsales.Shipdate"
+    } ]
+  }
+}

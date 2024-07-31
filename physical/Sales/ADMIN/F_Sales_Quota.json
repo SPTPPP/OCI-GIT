@@ -1,0 +1,26 @@
+{
+  "physicalTable": {
+    "name": "F_Sales_Quota",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTSALESQUOTA",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Sales_Quota.DATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Employee",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Sales_Quota.EMPLOYEEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Employee.EMPLOYEEKEY"
+          }
+        ]
+      }
+    ]
+  }
+}

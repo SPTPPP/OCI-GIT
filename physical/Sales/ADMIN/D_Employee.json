@@ -1,0 +1,23 @@
+{
+  "physicalTable": {
+    "name": "D_Employee",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMEMPLOYEE",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Sales_Territory_For_Employee",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.D_Employee.SALESTERRITORYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Sales_Territory_For_Employee.SALESTERRITORYKEY"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "EMPLOYEEKEY"
+      ]
+    ]
+  }
+}

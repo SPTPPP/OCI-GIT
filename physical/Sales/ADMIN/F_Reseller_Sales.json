@@ -1,0 +1,74 @@
+{
+  "physicalTable": {
+    "name": "F_Reseller_Sales",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTRESELLERSALES",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Currency",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.CURRENCYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Currency.CURRENCYKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Due_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.DUEDATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Due_Date.DATEKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Employee",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.EMPLOYEEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Employee.EMPLOYEEKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Order_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.ORDERDATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Order_Date.DATEKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Product",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PRODUCTKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Product.PRODUCTKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Promotion",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.PROMOTIONKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Promotion.PROMOTIONKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Sales_Territory",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SALESTERRITORYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY"
+          }
+        ]
+      },
+      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Ship_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_Reseller_Sales.SHIPDATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Ship_Date.DATEKEY"
+          }
+        ]
+      }
+    ]
+  }
+}

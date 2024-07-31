@@ -1,0 +1,15 @@
+{
+  "presentationTable" : {
+    "name" : "D Prod Subcategory",
+    "presentationColumns" : [ {
+      "name" : "Englishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Prod Subcategory.Englishproductsubcategoryname"
+    }, {
+      "name" : "Spanishproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Prod Subcategory.Spanishproductsubcategoryname"
+    }, {
+      "name" : "Frenchproductsubcategoryname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Prod Subcategory.Frenchproductsubcategoryname"
+    } ]
+  }
+}

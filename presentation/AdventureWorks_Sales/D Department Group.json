@@ -1,0 +1,9 @@
+{
+  "presentationTable" : {
+    "name" : "D Department Group",
+    "presentationColumns" : [ {
+      "name" : "Departmentgroupname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Department Group.Departmentgroupname"
+    } ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "physicalTable": {
+    "name": "D_Organizatoion",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMORGANIZATION",
+    "caching": {
+      "enable": true
+    }
+  }
+}

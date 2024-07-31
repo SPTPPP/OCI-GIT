@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Currency",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMCURRENCY",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "CURRENCYKEY"
+      ]
+    ]
+  }
+}

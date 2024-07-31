@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Promotion",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMPROMOTION",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "PROMOTIONKEY"
+      ]
+    ]
+  }
+}

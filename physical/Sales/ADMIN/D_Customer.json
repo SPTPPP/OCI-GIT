@@ -1,0 +1,23 @@
+{
+  "physicalTable": {
+    "name": "D_Customer",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMCUSTOMER",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Geography",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.D_Customer.GEOGRAPHYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Geography.GEOGRAPHYKEY"
+          }
+        ]
+      }
+    ],
+    "additionalKeys": [
+      [
+        "CUSTOMERKEY"
+      ]
+    ]
+  }
+}

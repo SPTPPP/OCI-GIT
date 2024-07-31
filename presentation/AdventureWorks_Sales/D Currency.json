@@ -1,0 +1,9 @@
+{
+  "presentationTable" : {
+    "name" : "D Currency",
+    "presentationColumns" : [ {
+      "name" : "Currencyname",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Currency.Currencyname"
+    } ]
+  }
+}

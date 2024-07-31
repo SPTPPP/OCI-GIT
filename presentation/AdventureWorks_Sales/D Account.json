@@ -1,0 +1,24 @@
+{
+  "presentationTable" : {
+    "name" : "D Account",
+    "presentationColumns" : [ {
+      "name" : "Accountdescription",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accountdescription"
+    }, {
+      "name" : "Accounttype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Accounttype"
+    }, {
+      "name" : "Operator",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Operator"
+    }, {
+      "name" : "Custommembers",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Custommembers"
+    }, {
+      "name" : "Valuetype",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Valuetype"
+    }, {
+      "name" : "Custommemberoptions",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Account.Custommemberoptions"
+    } ]
+  }
+}

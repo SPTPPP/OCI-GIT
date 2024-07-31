@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Department_Group",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMDEPARTMENTGROUP",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "DEPARTMENTGROUPKEY"
+      ]
+    ]
+  }
+}

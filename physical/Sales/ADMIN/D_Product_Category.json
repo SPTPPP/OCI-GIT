@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Product_Category",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMPRODUCTCATEGORY",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "PRODUCTCATEGORYKEY"
+      ]
+    ]
+  }
+}

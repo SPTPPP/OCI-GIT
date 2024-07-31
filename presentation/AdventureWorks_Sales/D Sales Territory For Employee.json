@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "D Sales Territory For Employee",
+    "presentationColumns" : [ {
+      "name" : "Salesterritoryregion",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory For Employee.Salesterritoryregion"
+    }, {
+      "name" : "Salesterritorycountry",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory For Employee.Salesterritorycountry"
+    }, {
+      "name" : "Salesterritorygroup",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory For Employee.Salesterritorygroup"
+    }, {
+      "name" : "Salesterritoryimage",
+      "sourceLogicalColumn" : "logicalColumn:Sales.D Sales Territory For Employee.Salesterritoryimage"
+    } ]
+  }
+}

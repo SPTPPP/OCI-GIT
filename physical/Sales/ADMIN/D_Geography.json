@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "D_Geography",
+    "sourceTable": "physicalTable:Sales.ADMIN.DIMGEOGRAPHY",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "GEOGRAPHYKEY"
+      ]
+    ]
+  }
+}

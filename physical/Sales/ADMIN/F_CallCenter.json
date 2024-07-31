@@ -1,0 +1,18 @@
+{
+  "physicalTable": {
+    "name": "F_CallCenter",
+    "sourceTable": "physicalTable:Sales.ADMIN.FACTCALLCENTER",
+    "caching": {
+      "enable": true
+    },
+    "joins": [      {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Date",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_CallCenter.DATEKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Date.DATEKEY"
+          }
+        ]
+      }
+    ]
+  }
+}
