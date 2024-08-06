@@ -450,6 +450,20 @@
           }
         } ]
       }
+    }, {
+      "name" : "EMPLOYEEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Employee",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Employee.EMPLOYEEKEY" ]
+          }
+        } ]
+      }
     } ],
     "logicalTableSources" : [ {
       "name" : "D_Employee",
@@ -466,6 +480,12 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "joins" : [ {
+      "rightTable" : "logicalTable:Sales.D Sales Territory For Employee",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE"
+    } ],
+    "primaryKey" : [ "EMPLOYEEKEY" ]
   }
 }

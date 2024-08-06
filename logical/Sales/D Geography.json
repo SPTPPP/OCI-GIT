@@ -128,6 +128,20 @@
           }
         } ]
       }
+    }, {
+      "name" : "GEOGRAPHYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Geography",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Geography.GEOGRAPHYKEY" ]
+          }
+        } ]
+      }
     } ],
     "logicalTableSources" : [ {
       "name" : "D_Geography",
@@ -139,10 +153,6 @@
       "enableFragmentSelection" : false,
       "distinctValues" : false
     } ],
-    "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Customer",
-      "joinType" : "INNER",
-      "cardinality" : "ONE_TO_MANY"
-    } ]
+    "primaryKey" : [ "GEOGRAPHYKEY" ]
   }
 }

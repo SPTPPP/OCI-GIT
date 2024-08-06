@@ -290,13 +290,13 @@
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE"
     }, {
-      "rightTable" : "logicalTable:Sales.D Sales Territory",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
       "rightTable" : "logicalTable:Sales.D Ship Date",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "logicalTable:Sales.D_Sales_Territory",
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ZERO_OR_ONE"
     } ]
   }
 }

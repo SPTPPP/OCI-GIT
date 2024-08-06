@@ -86,6 +86,20 @@
           }
         } ]
       }
+    }, {
+      "name" : "ACCOUNTKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Account",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Account.ACCOUNTKEY" ]
+          }
+        } ]
+      }
     } ],
     "logicalTableSources" : [ {
       "name" : "D_Account",
@@ -96,6 +110,7 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "ACCOUNTKEY" ]
   }
 }

@@ -40,6 +40,7 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "Organizationname" ]
   }
 }

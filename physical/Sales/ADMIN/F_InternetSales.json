@@ -54,6 +54,14 @@
         ]
       },
       {
+        "rightTable": "physicalTable:Sales.ADMIN.D_Sales_Territory",
+        "joinConditions": [          {
+            "leftColumn": "physicalColumn:Sales.ADMIN.F_InternetSales.SALESTERRITORYKEY",
+            "rightColumn": "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY"
+          }
+        ]
+      },
+      {
         "rightTable": "physicalTable:Sales.ADMIN.D_Ship_Date",
         "joinConditions": [          {
             "leftColumn": "physicalColumn:Sales.ADMIN.F_InternetSales.SHIPDATEKEY",

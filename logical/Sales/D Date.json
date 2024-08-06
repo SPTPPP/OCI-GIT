@@ -315,7 +315,8 @@
         "grandTotalLevel" : false,
         "disableAggregateToHigherLevel" : false,
         "primaryKey" : [ "Calendaryear", "Monthnumberofyear" ],
-        "displayKey" : "Englishmonthname"
+        "displayKey" : "Englishmonthname",
+        "additionalKeys" : [ [ "Englishmonthname" ] ]
       }, {
         "name" : "Day",
         "numberOfElements" : 365,

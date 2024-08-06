@@ -54,6 +54,7 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "Englishproductsubcategoryname", "Spanishproductsubcategoryname", "Frenchproductsubcategoryname" ]
   }
 }

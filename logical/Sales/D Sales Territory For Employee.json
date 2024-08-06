@@ -58,6 +58,20 @@
           }
         } ]
       }
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY" ]
+          }
+        } ]
+      }
     } ],
     "logicalTableSources" : [ {
       "name" : "D_Sales_Territory_For_Employee",
@@ -68,11 +82,16 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
+    }, {
+      "name" : "D_Sales_Territory",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:Sales.ADMIN.D_Sales_Territory" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
     } ],
-    "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Employee",
-      "joinType" : "INNER",
-      "cardinality" : "ONE_TO_MANY"
-    } ]
+    "primaryKey" : [ "SALESTERRITORYKEY" ]
   }
 }

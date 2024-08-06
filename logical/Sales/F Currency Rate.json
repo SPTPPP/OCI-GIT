@@ -44,6 +44,20 @@
           }
         } ]
       }
+    }, {
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_Currency_Rate",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_Currency_Rate.CURRENCYKEY" ]
+          }
+        } ]
+      }
     } ],
     "logicalTableSources" : [ {
       "name" : "F_Currency_Rate",

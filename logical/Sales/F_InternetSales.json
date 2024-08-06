@@ -1,191 +1,9 @@
 {
   "logicalTable" : {
-    "name" : "F Internetsales",
+    "name" : "F_InternetSales",
     "type" : "FACT",
     "logicalColumns" : [ {
-      "name" : "Salesordernumber",
-      "dataType" : "VARCHAR",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESORDERNUMBER" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Salesorderlinenumber",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESORDERLINENUMBER" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Revisionnumber",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.REVISIONNUMBER" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Orderquantity",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERQUANTITY" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Unitprice",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.UNITPRICE" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Extendedamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.EXTENDEDAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Unitpricediscountpct",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.UNITPRICEDISCOUNTPCT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Discountamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.DISCOUNTAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Productstandardcost",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.PRODUCTSTANDARDCOST" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Totalproductcost",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.TOTALPRODUCTCOST" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Salesamount",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESAMOUNT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Taxamt",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.TAXAMT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Freight",
-      "dataType" : "NUMERIC",
-      "writeable" : false,
-      "logicalColumnSource" : {
-        "derivedFrom" : "PHYSICAL_COLUMNS",
-        "physicalMappings" : [ {
-          "logicalTableSource" : "F_InternetSales",
-          "physicalExpression" : {
-            "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.FREIGHT" ]
-          }
-        } ]
-      }
-    }, {
-      "name" : "Carriertrackingnumber",
+      "name" : "CARRIERTRACKINGNUMBER",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -199,7 +17,35 @@
         } ]
       }
     }, {
-      "name" : "Customerponumber",
+      "name" : "CURRENCYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.CURRENCYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CUSTOMERKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.CUSTOMERKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CUSTOMERPONUMBER",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -213,8 +59,8 @@
         } ]
       }
     }, {
-      "name" : "Orderdate",
-      "dataType" : "TIMESTAMP",
+      "name" : "DISCOUNTAMOUNT",
+      "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
@@ -222,12 +68,12 @@
           "logicalTableSource" : "F_InternetSales",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERDATE" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.DISCOUNTAMOUNT" ]
           }
         } ]
       }
     }, {
-      "name" : "Duedate",
+      "name" : "DUEDATE",
       "dataType" : "TIMESTAMP",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -241,7 +87,203 @@
         } ]
       }
     }, {
-      "name" : "Shipdate",
+      "name" : "DUEDATEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.DUEDATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "EXTENDEDAMOUNT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.EXTENDEDAMOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "FREIGHT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.FREIGHT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ORDERDATE",
+      "dataType" : "TIMESTAMP",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERDATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ORDERDATEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERDATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ORDERQUANTITY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.ORDERQUANTITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCTKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.PRODUCTKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PRODUCTSTANDARDCOST",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.PRODUCTSTANDARDCOST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "PROMOTIONKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.PROMOTIONKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REVISIONNUMBER",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.REVISIONNUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESAMOUNT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESAMOUNT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESORDERLINENUMBER",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESORDERLINENUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESORDERNUMBER",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESORDERNUMBER" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SALESTERRITORYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SHIPDATE",
       "dataType" : "TIMESTAMP",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -251,6 +293,76 @@
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SHIPDATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SHIPDATEKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.SHIPDATEKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TAXAMT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.TAXAMT" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "TOTALPRODUCTCOST",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.TOTALPRODUCTCOST" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "UNITPRICE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.UNITPRICE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "UNITPRICEDISCOUNTPCT",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "F_InternetSales",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.F_InternetSales.UNITPRICEDISCOUNTPCT" ]
           }
         } ]
       }
@@ -266,34 +378,6 @@
       "distinctValues" : false
     } ],
     "joins" : [ {
-      "rightTable" : "logicalTable:Sales.D Currency",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Customer",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Due Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Order Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Product",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Promotion",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
-      "rightTable" : "logicalTable:Sales.D Ship Date",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE"
-    }, {
       "rightTable" : "logicalTable:Sales.D_Sales_Territory",
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ZERO_OR_ONE"

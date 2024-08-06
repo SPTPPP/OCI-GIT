@@ -3,7 +3,7 @@
     "name" : "Sales",
     "databaseType" : "ORACLE_DATABASE",
     "connectionPools" : [ {
-      "name" : "New Connection Pool_1",
+      "name" : "ADW",
       "connection" : "'system'.'ADW'",
       "remoteConnection" : false,
       "maxConnections" : 10,

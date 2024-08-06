@@ -1,10 +1,10 @@
 {
   "logicalTable" : {
-    "name" : "D Sales Territory",
+    "name" : "D_Sales_Territory",
     "type" : "DIMENSION",
     "logicalColumns" : [ {
-      "name" : "Salesterritoryregion",
-      "dataType" : "VARCHAR",
+      "name" : "SALESTERRITORYALTERNATEKEY",
+      "dataType" : "NUMERIC",
       "writeable" : false,
       "logicalColumnSource" : {
         "derivedFrom" : "PHYSICAL_COLUMNS",
@@ -12,12 +12,12 @@
           "logicalTableSource" : "D_Sales_Territory",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYREGION" ]
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYALTERNATEKEY" ]
           }
         } ]
       }
     }, {
-      "name" : "Salesterritorycountry",
+      "name" : "SALESTERRITORYCOUNTRY",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -31,7 +31,7 @@
         } ]
       }
     }, {
-      "name" : "Salesterritorygroup",
+      "name" : "SALESTERRITORYGROUP",
       "dataType" : "VARCHAR",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -45,7 +45,7 @@
         } ]
       }
     }, {
-      "name" : "Salesterritoryimage",
+      "name" : "SALESTERRITORYIMAGE",
       "dataType" : "LONGVARBINARY",
       "writeable" : false,
       "logicalColumnSource" : {
@@ -55,6 +55,34 @@
           "physicalExpression" : {
             "expressionTemplate" : "%1",
             "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYIMAGE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESTERRITORYKEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYKEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "SALESTERRITORYREGION",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "D_Sales_Territory",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:Sales.ADMIN.D_Sales_Territory.SALESTERRITORYREGION" ]
           }
         } ]
       }
@@ -68,6 +96,7 @@
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
       "distinctValues" : false
-    } ]
+    } ],
+    "primaryKey" : [ "SALESTERRITORYKEY" ]
   }
 }
