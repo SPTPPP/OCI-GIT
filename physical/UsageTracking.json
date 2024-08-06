@@ -3,7 +3,7 @@
     "name" : "UsageTracking",
     "databaseType" : "ORACLE_DATABASE",
     "connectionPools" : [ {
-      "name" : "UsageTracking",
+      "name" : "UsageTrackingCinnectionPool",
       "connection" : "'system'.'UsageTracking'",
       "remoteConnection" : false,
       "maxConnections" : 10,
